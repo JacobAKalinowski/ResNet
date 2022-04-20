@@ -8,6 +8,6 @@ When used with convolutional layers, ResNets are very good at image classificati
 
 The model was trained using an NVIDIA Tesla T4 GPU on Google Cloud Platform.
 
-In addition, I plotted the [TSNE Visualization](https://en.wikipedia.org/wiki/Latent_space) in order to get a visualization of the data. I plotted this at 1, 10, 25, and 50 epochs.  As the training progresses, you can see a separation in the representation vectors. Here is the visualization: 
+In addition, I plotted the [TSNE Visualization](https://en.wikipedia.org/wiki/Latent_space) in order to get a visualization of the data after being passed through the model. I plotted this at 1, 10, 25, and 50 epochs.  As the training progresses, you can see a separation in the representation vectors. Here is the visualization: 
 
 ![TSNE](https://user-images.githubusercontent.com/67863882/164309157-c25b3358-1489-4aac-8b9b-3cecf2e2ac1c.png)
