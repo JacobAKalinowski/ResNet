@@ -4,7 +4,7 @@ Residual Neural Networks ([ResNets](https://en.wikipedia.org/wiki/Residual_neura
 
 When used with convolutional layers, ResNets are very good at image classification.  In this project, I implemented a ResNet where you can input the number of residual layers, the size of the first input channel, and an expansion term.  I then created a model with and trained it on the [CIFAR10](https://en.wikipedia.org/wiki/CIFAR-10) dataset over 50 epochs.  The specific statistics I achieved for each class is shown in the following plot:
 
-![ResNetAccuracy](https://user-images.githubusercontent.com/67863882/164306286-a779bae3-4b01-457a-a7df-baf8e71a8aa6.png)
+![CIFAR10 Accuracy](https://user-images.githubusercontent.com/67863882/164312270-513737ba-09ea-476c-8da5-05e97f80c866.png)
 
 The model was trained using an NVIDIA Tesla T4 GPU on Google Cloud Platform.
 
